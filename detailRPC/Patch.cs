@@ -102,7 +102,7 @@ namespace detailRPC
                         else
                         {
                             if (GCS.difficulty == Difficulty.Lenient)
-                                activity.Details = "[ " + Main.Progress() + "% " + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨-실패 방지" : "Lenient-No Fail") + ") ]";
+                                activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨-실패 방지" : "Lenient-No Fail") + ") ]";
                             else if (GCS.difficulty == Difficulty.Normal)
                                 activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통-실패 방지" : "Normal-No Fail") + ") ]";
                             else if (GCS.difficulty == Difficulty.Strict)
