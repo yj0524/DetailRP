@@ -56,12 +56,12 @@ namespace detailRPC
                             if (!scrController.instance.editor.customLevel.levelPath.IsNullOrEmpty())
                             {
                                 text3 = RDString.Get("discord.editedLevel", new Dictionary<string, object>
-                        {
-                            {
-                                "level",
-                                text4
-                            }
-                        });
+                         {
+                             {
+                                 "level",
+                                 text4
+                             }
+                         });
                             }
                         }
                     }
@@ -87,26 +87,36 @@ namespace detailRPC
                     text3 = Validate(text3);
                     text2 = Validate(text2);
                     Activity activity = default(Activity);
-                    // activity.State = text3;
+                    activity.State = text3;
                     if (!scrController.instance.paused && !RDC.auto && (!(Patch.isdeath || Patch.isoverload) || scrController.instance.noFail))
                     {
                         if (!scrController.instance.noFail)
                         {
                             if (GCS.difficulty == Difficulty.Lenient)
                                 activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ") ]";
+
                             else if (GCS.difficulty == Difficulty.Normal)
                                 activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ") ]";
+
                             else if (GCS.difficulty == Difficulty.Strict)
                                 activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ") ]";
+
+                            if (!scrController.instance.isEditingLevel)
+                            {
+                                text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
+                            }
                         }
                         else
                         {
                             if (GCS.difficulty == Difficulty.Lenient)
                                 activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨-실패 방지" : "Lenient-No Fail") + ") ]";
+
                             else if (GCS.difficulty == Difficulty.Normal)
                                 activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통-실패 방지" : "Normal-No Fail") + ") ]";
+
                             else if (GCS.difficulty == Difficulty.Strict)
                                 activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격-실패 방지" : "Strict-No Fail") + ") ]";
+
                             if (!scrController.instance.isEditingLevel)
                             {
                                 text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
@@ -118,74 +128,50 @@ namespace detailRPC
                     else if (RDC.auto)
                     {
                         if (GCS.difficulty == Difficulty.Lenient)
-                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "느슨"
-                                                   : "Lenient") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ") ]";
+
                         else if (GCS.difficulty == Difficulty.Normal)
-                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "보통"
-                                                   : "Normal") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ") ]";
+
                         else if (GCS.difficulty == Difficulty.Strict)
-                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "엄격"
-                                                   : "Strict") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ") ]";
+
+                        if (!scrController.instance.isEditingLevel)
+                        {
+                            text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
+                        }
                     }
                     else if (Patch.isdeath)
                     {
                         if (GCS.difficulty == Difficulty.Lenient)
-                            activity.Details = "[ " + Main.Progress() + "% (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "느슨"
-                                                   : "Lenient") + ") (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "죽음"
-                                                   : "Death") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "죽음" : "Death") + ") ]";
+
                         else if (GCS.difficulty == Difficulty.Normal)
-                            activity.Details = "[ " + Main.Progress() + "% (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "보통"
-                                                   : "Normal") + ") (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "죽음"
-                                                   : "Death") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "죽음" : "Death") + ") ]";
+
                         else if (GCS.difficulty == Difficulty.Strict)
-                            activity.Details = "[ " + Main.Progress() + "% (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "엄격"
-                                                   : "Strict") + ") (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "죽음"
-                                                   : "Death") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "죽음" : "Death") + ") ]";
+
+                        if (!scrController.instance.isEditingLevel)
+                        {
+                            text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
+                        }
                     }
                     else if (Patch.isoverload)
                     {
                         if (GCS.difficulty == Difficulty.Lenient)
-                            activity.Details = "[ " + Main.Progress() + "% (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "느슨"
-                                                   : "Lenient") + ") (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "과부하"
-                                                   : "Overload") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "과부하" : "Overload") + ") ]";
+
                         else if (GCS.difficulty == Difficulty.Normal)
-                            activity.Details = "[ " + Main.Progress() + "% (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "보통"
-                                                   : "Normal") + ") (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "과부하"
-                                                   : "Overload") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "과부하" : "Overload") + ") ]";
+
                         else if (GCS.difficulty == Difficulty.Strict)
-                            activity.Details = "[ " + Main.Progress() + "% (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "엄격"
-                                                   : "Strict") + ") (" +
-                                               (RDString.language == UnityEngine.SystemLanguage.Korean
-                                                   ? "과부하"
-                                                   : "Overload") + ") ]";
+                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "과부하" : "Overload") + ") ]";
+
+                        if (!scrController.instance.isEditingLevel)
+                        {
+                            text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
+                        }
                     }
 
                     activity.State = text3;
