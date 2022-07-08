@@ -1,219 +1,166 @@
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\detailRPC.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\detailRPC.pdb
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\0Harmony.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\Assembly-CSharp-firstpass.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\Assembly-CSharp.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\DOTween.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\RDTools.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\Unity.TextMeshPro.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.AudioModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.CoreModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.InputLegacyModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.InputModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UI.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UIModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.VideoModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityModManager.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UnityWebRequestModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.ParticleSystemModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.Physics2DModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.AssetBundleModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.TextRenderingModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.AnimationModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\DOTweenPro.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.SpriteMaskModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\Rewired_Core.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.IMGUIModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.PhysicsModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.ImageConversionModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\Rewired_Windows.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\Rewired_Windows_Functions.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.AndroidJNIModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.TerrainModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\Ionic.Zip.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\Ookii.Dialogs.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.DSPGraphModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UnityCurlModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.TLSModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.AccessibilityModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UnityConnectModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.AIModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.PerformanceReportingModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.SharedInternalsModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.ClothModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.ClusterInputModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.ClusterRendererModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.CrashReportingModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.TilemapModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.VFXModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.VRModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.GridModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.SubsystemsModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.JSONSerializeModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.LocalizationModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UNETModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.NVIDIAModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.DirectorModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.VirtualTexturingModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.ScreenCaptureModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.GameCenterModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.StreamingModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.SpriteShapeModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UIElementsModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.UIElementsNativeModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.VehiclesModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.WindModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.XRModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityEngine.ARModule.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\dnlib.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\bin\Debug\UnityModManager.xml
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\obj\Debug\detailRP.csproj.AssemblyReference.cache
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\obj\Debug\detailRP.csproj.CoreCompileInputs.cache
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\obj\Debug\detailRP.csproj.CopyComplete
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\obj\Debug\detailRPC.dll
-C:\Users\yj0524_kr\Downloads\detailRP-master\detailRPC\obj\Debug\detailRPC.pdb
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\detailRPC.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\detailRPC.pdb
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.ParticleSystemModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.Physics2DModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.AssetBundleModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.TextRenderingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.AnimationModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\DOTweenPro.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.SpriteMaskModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\Rewired_Core.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.IMGUIModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.PhysicsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.ImageConversionModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\Rewired_Windows.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\Rewired_Windows_Functions.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.AndroidJNIModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.TerrainModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\Ionic.Zip.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\Ookii.Dialogs.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.DSPGraphModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityCurlModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.TLSModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.AccessibilityModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityConnectModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.AIModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.PerformanceReportingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.SharedInternalsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.ClothModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.ClusterInputModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.ClusterRendererModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.CrashReportingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.TilemapModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.VFXModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.VRModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.GridModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.SubsystemsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.JSONSerializeModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.LocalizationModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UNETModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.NVIDIAModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.DirectorModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.VirtualTexturingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.ScreenCaptureModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.GameCenterModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.StreamingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.SpriteShapeModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UIElementsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.UIElementsNativeModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.VehiclesModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.WindModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.XRModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityEngine.ARModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\dnlib.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\bin\Debug\UnityModManager.xml
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\obj\Debug\detailRP.csproj.AssemblyReference.cache
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\obj\Debug\detailRP.csproj.CoreCompileInputs.cache
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\obj\Debug\detailRP.csproj.CopyComplete
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\obj\Debug\detailRPC.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.1\DetailRP\detailRPC\obj\Debug\detailRPC.pdb
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\detailRPC.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\detailRPC.pdb
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ParticleSystemModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.Physics2DModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AssetBundleModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TextRenderingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AnimationModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\DOTweenPro.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.SpriteMaskModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Rewired_Core.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.IMGUIModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.PhysicsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ImageConversionModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Rewired_Windows.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Rewired_Windows_Functions.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AndroidJNIModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TerrainModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Ionic.Zip.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Ookii.Dialogs.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.DSPGraphModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityCurlModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TLSModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AccessibilityModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityConnectModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AIModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.PerformanceReportingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.SharedInternalsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ClothModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ClusterInputModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ClusterRendererModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.CrashReportingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TilemapModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VFXModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VRModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.GridModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.SubsystemsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.JSONSerializeModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.LocalizationModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UNETModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.NVIDIAModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.DirectorModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VirtualTexturingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ScreenCaptureModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.GameCenterModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.StreamingModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.SpriteShapeModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UIElementsModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UIElementsNativeModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VehiclesModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.WindModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.XRModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ARModule.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\dnlib.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityModManager.xml
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\obj\Debug\detailRP.csproj.AssemblyReference.cache
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\obj\Debug\detailRP.csproj.CoreCompileInputs.cache
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\obj\Debug\detailRP.csproj.CopyComplete
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\obj\Debug\detailRPC.dll
-E:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\obj\Debug\detailRPC.pdb
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\detailRPC.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\detailRPC.pdb
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\0Harmony.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\Assembly-CSharp.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\dnlib.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\DOTween.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\DOTweenPro.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\Ionic.Zip.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\Ookii.Dialogs.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\RDTools.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\Rewired_Core.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\Rewired_Windows.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\Rewired_Windows_Functions.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.AndroidJNIModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.ARModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.DSPGraphModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.LocalizationModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.NVIDIAModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.StreamingModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.SubsystemsModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.TLSModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UI.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UIElementsNativeModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UNETModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UnityCurlModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.VFXModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.VirtualTexturingModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.WindModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityModManager.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\bin\Debug\UnityModManager.xml
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\obj\Debug\detailRP.csproj.AssemblyReference.cache
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\obj\Debug\detailRP.csproj.CoreCompileInputs.cache
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\obj\Debug\detailRP.csproj.CopyComplete
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\obj\Debug\detailRPC.dll
+C:\Users\yj0524_kr\Downloads\detailRP-0.1.4\detailRPC\obj\Debug\detailRPC.pdb
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\detailRPC.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\detailRPC.pdb
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\0Harmony.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\Assembly-CSharp-firstpass.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\Assembly-CSharp.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\dnlib.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\DOTween.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\DOTweenPro.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\Ionic.Zip.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\Ookii.Dialogs.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\RDTools.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\Rewired_Core.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\Rewired_Windows.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\Rewired_Windows_Functions.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\Unity.TextMeshPro.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.AccessibilityModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.AIModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.AndroidJNIModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.AnimationModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.ARModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.AssetBundleModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.AudioModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.ClothModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.ClusterInputModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.ClusterRendererModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.CoreModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.CrashReportingModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.DirectorModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.DSPGraphModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.GameCenterModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.GridModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.ImageConversionModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.IMGUIModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.InputLegacyModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.InputModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.JSONSerializeModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.LocalizationModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.NVIDIAModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.ParticleSystemModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.Physics2DModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.PhysicsModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.SharedInternalsModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.SpriteMaskModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.SpriteShapeModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.StreamingModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.SubsystemsModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.TerrainModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.TextRenderingModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.TilemapModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.TLSModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UI.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UIElementsModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UIElementsNativeModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UIModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UNETModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityConnectModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityCurlModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.VehiclesModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.VFXModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.VideoModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.VirtualTexturingModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.VRModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.WindModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityEngine.XRModule.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityModManager.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\bin\Debug\UnityModManager.xml
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\obj\Debug\detailRP.csproj.AssemblyReference.cache
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\obj\Debug\detailRP.csproj.CoreCompileInputs.cache
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\obj\Debug\detailRP.csproj.CopyComplete
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\obj\Debug\detailRPC.dll
+F:\Developer\ADOFAI Mods\DetailRP\1.0.3\DetailRP\detailRPC\obj\Debug\detailRPC.pdb

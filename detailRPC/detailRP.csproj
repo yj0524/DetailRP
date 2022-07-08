@@ -32,19 +32,40 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityModManager\0Harmony.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="dnlib">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\dnlib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\DOTween.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="RDTools">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\RDTools.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\RDTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Rewired_Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows_Functions">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Rewired_Windows_Functions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,40 +76,202 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.NVIDIAModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityModManager">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice\A Dance of Fire and Ice_Data\Managed\UnityModManager\UnityModManager.dll</HintPath>
+      <HintPath>F:\Developer\ADOFAI Mods\DetailRP\1.0.2\DetailRP\detailRPC\bin\Debug\UnityModManager.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="Patch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Repository.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

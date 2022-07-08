@@ -11,7 +11,7 @@ namespace detailRPC
 {
     public static class Patch
     {
-        public static bool isdeath, isoverload = false;
+        public static bool isdeath, isoverload, isclear, auto = false;
         [HarmonyPatch(typeof(DiscordController),"UpdatePresence")]
         public static class RPPatch
         {
@@ -25,27 +25,36 @@ namespace detailRPC
             }
             public static bool Prefix(DiscordController __instance, Discord.Discord ___discord)
             {
+                //Main.Logger.Log("RPPatch Working");
                 if (Main.isplaying && ___discord != null)
                 {
+                    if (ADOBase.sceneName == GCNS.sceneLevelSelect)
+                        return true;
+                    if (ADOBase.sceneName == "scnCLS")
+                        return true;
                     String text = String.Empty;
                     String text2 = String.Empty;
                     String text3 = String.Empty;
 
-                    if (scrController.instance != null && scrController.instance.isLevelEditor)
+                    bool isLevelEditor = Main.ReleaseNumber >= 94 ? (bool)Main.latestisLevelEditorProperty.GetValue(null) : (bool)Main.isLevelEditorProperty.GetValue(null);
+                    scnEditor editor = Main.ReleaseNumber >= 94 ? (scnEditor)Main.latesteditorProperty.GetValue(null) : (scnEditor)Main.editorProperty.GetValue(null);
+                    bool isEditingLevel = Main.ReleaseNumber >= 94 ? (bool)Main.latestisEditingLevelProperty.GetValue(null) : (bool)Main.isEditingLevelProperty.GetValue(null);
+
+                    if (scrController.instance != null && isLevelEditor)
                     {
-                        string text4 = scrController.instance.editor.levelData.fullCaption;
+                        string text4 = editor.levelData.fullCaption;
                         if (GCS.standaloneLevelMode)
                         {
                             text2 = RDString.Get("discord.playing", null);
-                            if (!scrMisc.ApproximatelyFloor((double)(GCS.speedTrialMode ? GCS.currentSpeedTrial : (scrController.instance.isEditingLevel ? scrController.instance.editor.playbackSpeed : 1f)), 1.0))
+                            if (!scrMisc.ApproximatelyFloor((double)(GCS.speedTrialMode ? GCS.currentSpeedTrial : (isEditingLevel ? editor.playbackSpeed : 1f)), 1.0))
                             {
                                 string str = RDString.Get("levelSelect.multiplier", new Dictionary<string, object>
-                        {
-                            {
-                                "multiplier",
-                                scrConductor.instance.song.pitch.ToString("0.0#")
-                            }
-                        });
+                                {
+                                    {
+                                        "multiplier",
+                                        scrConductor.instance.song.pitch.ToString("0.0#")
+                                    }
+                                });
                                 text4 = text4 + " (" + str + ")";
                             }
                             text3 = text4;
@@ -53,30 +62,30 @@ namespace detailRPC
                         else
                         {
                             text2 = RDString.Get("discord.inLevelEditor", null);
-                            if (!scrController.instance.editor.customLevel.levelPath.IsNullOrEmpty())
+                            if (!editor.customLevel.levelPath.IsNullOrEmpty())
                             {
                                 text3 = RDString.Get("discord.editedLevel", new Dictionary<string, object>
-                         {
-                             {
-                                 "level",
-                                 text4
-                             }
-                         });
+                                {
+                                    {
+                                        "level",
+                                        text4
+                                    }
+                                });
                             }
                         }
                     }
                     else if (scrController.instance != null && scrController.instance.gameworld)
                     {
                         string text5 = ADOBase.GetLocalizedLevelName(ADOBase.sceneName);
-                        if (!scrMisc.ApproximatelyFloor((double)(GCS.speedTrialMode ? GCS.currentSpeedTrial : (scrController.instance.isEditingLevel ? scrController.instance.editor.playbackSpeed : 1f)), 1.0))
+                        if (!scrMisc.ApproximatelyFloor((double)(GCS.speedTrialMode ? GCS.currentSpeedTrial : (isEditingLevel ? editor.playbackSpeed : 1f)), 1.0))
                         {
                             string str2 = RDString.Get("levelSelect.multiplier", new Dictionary<string, object>
-                    {
-                        {
-                            "multiplier",
-                            scrConductor.instance.song.pitch.ToString("0.0#")
-                        }
-                    });
+                            {
+                                {
+                                    "multiplier",
+                                    scrConductor.instance.song.pitch.ToString("0.0#")
+                                }
+                            });
                             text5 = text5 + " (" + str2 + ")";
                         }
                         text2 = RDString.Get("discord.playing", null);
@@ -87,37 +96,30 @@ namespace detailRPC
                     text3 = Validate(text3);
                     text2 = Validate(text2);
                     Activity activity = default(Activity);
-                    activity.State = text3;
+                    if (text2.IsNullOrEmpty())
+                    {
+                        return true;
+                    }
                     if (!scrController.instance.paused && !RDC.auto && (!(Patch.isdeath || Patch.isoverload) || scrController.instance.noFail))
                     {
                         if (!scrController.instance.noFail)
                         {
                             if (GCS.difficulty == Difficulty.Lenient)
-                                activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ") ]";
-
+                                activity.Details = text2 + " / (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ")";
                             else if (GCS.difficulty == Difficulty.Normal)
-                                activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ") ]";
-
+                                activity.Details = text2 + " / (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ")";
                             else if (GCS.difficulty == Difficulty.Strict)
-                                activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ") ]";
-
-                            if (!scrController.instance.isEditingLevel)
-                            {
-                                text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
-                            }
+                                activity.Details = text2 + " / (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ")";
                         }
                         else
                         {
                             if (GCS.difficulty == Difficulty.Lenient)
-                                activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨-실패 방지" : "Lenient-No Fail") + ") ]";
-
+                                activity.Details = "(" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨-실패 방지" : "Lenient-No Fail") + ")";
                             else if (GCS.difficulty == Difficulty.Normal)
-                                activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통-실패 방지" : "Normal-No Fail") + ") ]";
-
+                                activity.Details = "(" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통-실패 방지" : "Normal-No Fail") + ")";
                             else if (GCS.difficulty == Difficulty.Strict)
-                                activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격-실패 방지" : "Strict-No Fail") + ") ]";
-
-                            if (!scrController.instance.isEditingLevel)
+                                activity.Details = "(" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격-실패 방지" : "Strict-No Fail") + ")";
+                            if (!isEditingLevel)
                             {
                                 text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
                             }
@@ -127,52 +129,15 @@ namespace detailRPC
                         activity.Details = text2;
                     else if (RDC.auto)
                     {
-                        if (GCS.difficulty == Difficulty.Lenient)
-                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ") ]";
-
-                        else if (GCS.difficulty == Difficulty.Normal)
-                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ") ]";
-
-                        else if (GCS.difficulty == Difficulty.Strict)
-                            activity.Details = "[ " + Main.Progress() + "% (Auto) (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ") ]";
-
-                        if (!scrController.instance.isEditingLevel)
-                        {
-                            text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
-                        }
+                        activity.Details = text2 + " / (Auto)";
+                        auto = true;
                     }
                     else if (Patch.isdeath)
-                    {
-                        if (GCS.difficulty == Difficulty.Lenient)
-                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "죽음" : "Death") + ") ]";
-
-                        else if (GCS.difficulty == Difficulty.Normal)
-                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "죽음" : "Death") + ") ]";
-
-                        else if (GCS.difficulty == Difficulty.Strict)
-                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "죽음" : "Death") + ") ]";
-
-                        if (!scrController.instance.isEditingLevel)
-                        {
-                            text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
-                        }
-                    }
+                        activity.Details = text2 + " / (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "죽음" : "Death") + ")";
                     else if (Patch.isoverload)
-                    {
-                        if (GCS.difficulty == Difficulty.Lenient)
-                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "느슨" : "Lenient") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "과부하" : "Overload") + ") ]";
-
-                        else if (GCS.difficulty == Difficulty.Normal)
-                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "보통" : "Normal") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "과부하" : "Overload") + ") ]";
-
-                        else if (GCS.difficulty == Difficulty.Strict)
-                            activity.Details = "[ " + Main.Progress() + "% (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "엄격" : "Strict") + ") (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "과부하" : "Overload") + ") ]";
-
-                        if (!scrController.instance.isEditingLevel)
-                        {
-                            text3 = RDString.Get("discord.playing", null) + (RDString.language == UnityEngine.SystemLanguage.Korean ? " " : ": ") + text3;
-                        }
-                    }
+                        activity.Details = text2 + " / (" + (RDString.language == UnityEngine.SystemLanguage.Korean ? "과부하" : "Overload") + ")";
+                    if (!RDC.auto)
+                        auto = false;
 
                     activity.State = text3;
                     activity.Assets.LargeImage = "planets_icon_stars";
@@ -185,14 +150,10 @@ namespace detailRPC
                             RDBaseDll.printem(result.ToString());
                         }
                     });
-                    DiscordController.shouldUpdatePresence = true;
+                    DiscordController.shouldUpdatePresence = false;
                     return false;
                 }
                 return true;
-            }
-            public static void Postfix()
-            {
-                DiscordController.shouldUpdatePresence = true;
             }
         }
     }
@@ -207,16 +168,61 @@ namespace detailRPC
                 Patch.isdeath = true;
             else
                 Patch.isoverload = true;
+            DiscordController.shouldUpdatePresence = true;
         }
     }
 
-    [HarmonyPatch(typeof(scrController),"Countdown_Update")]
+    [HarmonyPatch(typeof(scrCountdown), "ShowGetReady")]
     public static class StartLoadingPatcher
     {
         public static void Postfix()
         {
             Patch.isdeath = false;
             Patch.isoverload= false;
+            DiscordController.shouldUpdatePresence = true;
+        }
+    }
+
+    [HarmonyPatch(typeof(scrController),"Countdown_Update")]
+    public class EditorStartLoadingPatcher
+    {
+        public static void Prefix()
+        {
+            if (ADOBase.sceneName == GCNS.sceneEditor && (Patch.isdeath || Patch.isoverload))
+            {
+                Patch.isdeath = false;
+                Patch.isoverload = false;
+                DiscordController.shouldUpdatePresence = true;
+            }
+        }
+    }
+    
+    [HarmonyPatch(typeof(scnEditor),"Play")]
+    public static class PlayPatch
+    {
+        public static void Prefix()
+        {
+            Patch.isdeath = false;
+            Patch.isoverload = false;
+            DiscordController.shouldUpdatePresence = true;
+        }
+    }
+
+    [HarmonyPatch(typeof(scnEditor),"TogglePause")]
+    public static class EditorPausePatch
+    {
+        public static void Prefix()
+        {
+            DiscordController.shouldUpdatePresence = true;
+        }
+    }
+
+    [HarmonyPatch(typeof(scnEditor),"ToggleAuto")]
+    public static class EditorAutoPatch
+    {
+        public static void Prefix()
+        {
+            DiscordController.shouldUpdatePresence = true;
         }
     }
 
@@ -227,6 +233,19 @@ namespace detailRPC
         {
             Patch.isdeath = false;
             Patch.isoverload = false;
+            DiscordController.shouldUpdatePresence = true;
+        }
+    }
+
+    [HarmonyPatch(typeof(scrController),"OnLandOnPortal")]
+    public static class ClearPatch
+    {
+        public static void Postfix(scrController __instance)
+        {
+            if (__instance.gameworld)
+            {
+                Patch.isclear = true;
+            }
         }
     }
 }
